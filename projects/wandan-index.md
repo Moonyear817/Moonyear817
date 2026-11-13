@@ -1,33 +1,26 @@
-# 临界指数 · 方法与计算
+# 持续经营脆弱性指数（GCVI）
 
-[返回主页](../README.md) · [GitHub 项目](https://github.com/Moonyear817/criticality-index) · [方法说明](https://github.com/Moonyear817/criticality-index/blob/main/docs/method.md)
+Going-Concern Vulnerability Index
 
-一家店的经营能力受损到什么程度？这个试行框架以六个系统的档位、致命条件与证据范围描述当前状态。
+[返回主页](../README.md) · [计算实现](https://github.com/Moonyear817/gcvi) · [方法文档](https://github.com/Moonyear817/gcvi/blob/main/docs/method.md)
 
-**公开内容**　方法说明 · 六系统判据 · 模拟算例 · 评估模板 · Python 精确计算器 · 形式枚举
+## 研究概述
 
-## 制作过程
+GCVI 是面向小型商业组织的持续经营状态测度框架。研究以六维经营状态为输入，在非补偿性约束下结合风险聚合与致命否决，并通过可行状态枚举处理不完全信息。指数描述既定对象、时点与证据范围内的经营能力受损状态。
 
-### 先定义对象与证据
+## 方法结构
 
-固定评估对象、时点和观察范围，分别核对现金、业务与收入、交付、团队、治理、必要经营条件。未知单独记录，不填成零。
+1. **状态空间界定**：对现金、业务与收入、交付、团队、治理及必要经营条件进行五级离散编码，保留分档依据和缺失信息。
+2. **致命否决与聚合**：已核实的致命条件优先于非致命合成；比较允许风险叠加升档的 A 与保持最高严重档优先的 B，当前采用 B。
+3. **区间识别**：致命未知或证据未复核时不发布点值；在致命已排除的条件下，对未定输入枚举可行补全并报告上下界。
+4. **可复现计算**：使用有理数算术实现聚合和取整，提供构造算例、评估模板、测试及形式状态枚举脚本。
 
-### 拆开致命、状态与未知
+## 校核与研究边界
 
-已核实致命直接为 100；致命未知或资料未复核时待补证。仅档位或作用链未定时，报告与证据相容的可行范围。
+8 项测试已通过；全部 62,425 个可行形式状态上的基本边界、单项保真、单步单调性与 B 的档位区间已校核。该计数不是企业样本量，形式校核不构成预测效度证据。
 
-### 比较 A 与 B
-
-A 允许叠加升档；当前推荐 B 保留最高档优先，在档内反映其余问题。公开文档用同一组构造输入演示两种规则的取舍。
-
-### 用代码复算
-
-从已有书稿与数学工作稿整理公开说明，使用 Fraction 实现精确计算；8 项测试通过，包括全部 62,425 个可行形式状态的基本性质与单步单调性。算例与检查可在仓库内自行运行。
-
-## 当前边界
-
-本项目是研究中的方法原型，尚未完成多案例实证验证。分数不表示倒闭概率或剩余寿命；形式状态计数也不是真实企业样本量。公开版使用构造算例，真实案例材料留在私有项目中。
+分档可靠性、参数适用性与外部效度仍需经验研究。指数不解释为破产概率或剩余存续期限。公开版提供构造算例，个案材料保留在私有项目中。
 
 ---
 
-An experimental framework for describing impairment of operating capacity, with methods, criteria, constructed examples, an exact Python calculator and formal rule checks. The currently preferred B rule preserves highest-tier priority; A remains a comparison. Formal checks do not establish predictive validity.
+GCVI is a framework for measuring the current vulnerability of small commercial organizations to loss of going-concern capacity. It combines discrete operating states, non-compensatory constraints, fatal-condition vetoes and interval identification under incomplete information. The public implementation includes exact arithmetic and exhaustive finite-state checks; empirical validity remains to be established.
