@@ -2,7 +2,7 @@
 
 Rhodes Island Landship
 
-[返回主页 / Back to profile](../README.md)
+[返回作品集 / Back to portfolio](modeling.md)
 
 ## 项目介绍
 

@@ -1,6 +1,6 @@
-# 完蛋指数 · 方法与计算
+# 临界指数 · 方法与计算
 
-[返回主页](../README.md) · [GitHub 项目](https://github.com/Moonyear817/wandan-index) · [方法说明](https://github.com/Moonyear817/wandan-index/blob/main/docs/method.md)
+[返回主页](../README.md) · [GitHub 项目](https://github.com/Moonyear817/criticality-index) · [方法说明](https://github.com/Moonyear817/criticality-index/blob/main/docs/method.md)
 
 一家店的经营能力受损到什么程度？这个试行框架以六个系统的档位、致命条件与证据范围描述当前状态。
 
