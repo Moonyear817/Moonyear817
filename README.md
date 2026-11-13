@@ -14,6 +14,7 @@
   <a href="https://x.com/moon_year556"><img src="assets/unit02-industrial/link-x.svg" width="60" alt="X"></a>
   <a href="https://www.instagram.com/huangyihao817/"><img src="assets/unit02-industrial/link-instagram.svg" width="156" alt="Instagram"></a>
   <a href="https://space.bilibili.com/627291386"><img src="assets/unit02-industrial/link-bilibili.svg" width="144" alt="Bilibili"></a>
+  <a href="https://www.xiaohongshu.com/user/profile/6857f46d000000001b023e3b"><img src="assets/unit02-industrial/link-xiaohongshu.svg" width="96" alt="小红书 / Xiaohongshu"></a>
 </p>
 
 <details>
