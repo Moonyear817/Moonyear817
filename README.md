@@ -1,18 +1,19 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="皓月当年 / Moonyear817 · 三维建模、场景复刻与代码实验">
+  <img src="assets/profile-desktop.svg" width="100%" alt="皓月当年 / Moonyear817 · 浅蓝像素小桌面 · 三维建模、场景复刻和代码实验">
 </p>
 
-这里记录三维建模、场景复刻和代码实验。作品页包含成品图、制作过程与参考说明。
+<p align="center">
+  <a href="projects/rhodes.md">罗德岛号</a> ·
+  <a href="projects/t84.md">T-84 向日葵花海</a> ·
+  <a href="projects/linan.md">南宋临安城</a> ·
+  <a href="projects/night-plaza.md">信濃町夜景</a>
+</p>
 
-3D modeling, scene reconstruction and code experiments. Explore the projects for renders, making-of notes and credits.
-
-## 作品 / Works
-
-[罗德岛号](projects/rhodes.md) · [T-84 向日葵花海](projects/t84.md) · [南宋临安城](projects/linan.md) · [信濃町夜景](projects/night-plaza.md)
-
-## 找到我 / Connect
-
-[X](https://x.com/moon_year556) · [Instagram](https://www.instagram.com/huangyihao817/) · [哔哩哔哩](https://space.bilibili.com/627291386)
+<p align="center">
+  <a href="https://x.com/moon_year556"><img src="assets/link-x.svg" width="60" alt="X"></a>
+  <a href="https://www.instagram.com/huangyihao817/"><img src="assets/link-instagram.svg" width="156" alt="Instagram"></a>
+  <a href="https://space.bilibili.com/627291386"><img src="assets/link-bilibili.svg" width="144" alt="Bilibili"></a>
+</p>
 
 <details>
 <summary>微信 / WeChat</summary>
