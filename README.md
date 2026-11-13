@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-workspace.svg" width="100%" alt="皓月当年的像素工作桌。四个建模项目、Yufi 桌面助手与公开工具仓库，以及履带布局、85 mm 构图、水墨合成与相机标定的制作笔记。">
+  <img src="assets/profile-workspace.svg?v=yufi-20261113" width="100%" alt="皓月当年的像素工作桌。四个建模项目、Yufi 桌面助手与公开工具仓库，以及履带布局、85 mm 构图、水墨合成与相机标定的制作笔记。">
 </p>
 
 **作品**　[Yufi 桌面助手](projects/yufi.md) · [罗德岛号](projects/rhodes.md) · [T-84 向日葵花海](projects/t84.md) · [南宋临安城](projects/linan.md) · [信濃町夜景](projects/night-plaza.md)
