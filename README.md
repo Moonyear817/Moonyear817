@@ -3,6 +3,7 @@
 </p>
 
 <p align="center"><a href="https://moonyear817.github.io/">个人主页 / Website ↗</a></p>
+<p align="center">浙江杭州 · Hangzhou, Zhejiang</p>
 
 **作品**　[建模作品集](projects/modeling.md) · [Yufi 桌面助手](projects/yufi.md) · [持续经营脆弱性指数](projects/wandan-index.md)
 
@@ -15,6 +16,7 @@
   <a href="https://www.instagram.com/huangyihao817/"><img src="assets/unit02-industrial/link-instagram.svg" width="156" alt="Instagram"></a>
   <a href="https://space.bilibili.com/627291386"><img src="assets/unit02-industrial/link-bilibili.svg" width="144" alt="Bilibili"></a>
   <a href="https://www.xiaohongshu.com/user/profile/6857f46d000000001b023e3b"><img src="assets/unit02-industrial/link-xiaohongshu.svg" width="96" alt="小红书 / Xiaohongshu"></a>
+  <a href="mailto:goldenglow.susi@outlook.com" title="goldenglow.susi@outlook.com"><img src="assets/unit02-industrial/link-email.svg" width="360" alt="邮箱 / Email: goldenglow.susi@outlook.com"></a>
 </p>
 
 <details>
